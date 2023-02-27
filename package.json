@@ -1,0 +1,34 @@
+{
+  "name": "@kalico/main",
+  "version": "0.0.0",
+  "description": "A new library for interacting with the Scratch API",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "nodejs",
+    "scratch",
+    "scratch3",
+    "scratch-api",
+    "scratch-rest",
+    "scratch-client"
+  ],
+  "author": "Lumins",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminslo/tabbykat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luminslo/tabbykat/issues"
+  },
+  "homepage": "https://github.com/luminslo/tabbykat#readme",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "undici": "^5.20.0"
+  }
+}
